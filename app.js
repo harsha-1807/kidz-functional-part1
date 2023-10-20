@@ -133,7 +133,7 @@ cartButton.onclick = () => {
 
   for (let index = 0; index < items.length; index++) {
     if (items[index].quantity != 0) {
-      text += "Item name: " + items[index].name + " - Quantity: " + items[index].quantity + " "
+      text += "Item name: " + items[index].name + " - Quantity: " + items[index].quantity + "            " +"\n"
     }
   }
 
@@ -141,6 +141,6 @@ cartButton.onclick = () => {
   text += "The total amount is " + finalDollars + "$ and " + finalCents + " cents"
   console.log("text:", text);
 
-  window.open("https://wa.me/8248726961?text="+text,)
+  // window.open("https://wa.me/8248726961?text="+text,)
 };
 
